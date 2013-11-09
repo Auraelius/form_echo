@@ -1,5 +1,14 @@
 require 'sinatra'
 
 get '/' do
-  "Form Echo"
+  haml :index
 end
+
+__END__
+
+@@ layout
+%html
+  = yield
+
+@@ index
+%div.title Form Echo.
