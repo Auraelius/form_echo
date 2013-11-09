@@ -56,7 +56,7 @@ send button to see the field names and values
 echoed to your browser. Look at this page source 
 to see where to POST your form to echo its contents.</p>
 
-<form action= "http://form-echo.herokuapps.com/form-echo", method = "post">
+<form action= "http://form-echo.herokuapp.com/form-echo", method = "post">
   <fieldset>
     <ol>
       <li>
